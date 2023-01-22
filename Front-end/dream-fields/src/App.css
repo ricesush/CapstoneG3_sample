@@ -1,8 +1,7 @@
 body{
-  background: linear-gradient(
-    0deg,
-    #6d8ea030 0%,
-    #6d8ea030 100%), url('https://cdn.wallpapersafari.com/0/21/gnoflY.jpg');
+  background:  url('https://cdn.wallpapersafari.com/0/21/gnoflY.jpg');
+  background-attachment: fixed;
+  background-position: center
 }
 
 .quickSearchBg{
