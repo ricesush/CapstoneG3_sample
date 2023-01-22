@@ -1,7 +1,7 @@
 body{
   background:  url('https://cdn.wallpapersafari.com/0/21/gnoflY.jpg');
-  background-attachment: fixed;
-  background-position: center
+  background-position: center;
+  height: 100vh;
 }
 
 .quickSearchBg{
