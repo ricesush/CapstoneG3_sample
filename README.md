@@ -38,7 +38,9 @@
 <h3 align="center">Dream fields</h3>
 
   <p align="center">
-    Description here
+    Building Capstone
+    <br />
+     <a href="https://capstone-g3-7x3l.vercel.app/"><strong>Dream Fields »</strong></a>
     <br />
     <a href="https://github.com/imat19/CapstoneG3"><strong>Explore the docs »</strong></a>
     <br />
