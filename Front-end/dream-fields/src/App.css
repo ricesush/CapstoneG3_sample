@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+body{
+  background: linear-gradient(
+    0deg,
+    #6d8ea030 0%,
+    #6d8ea030 100%), url('https://cdn.wallpapersafari.com/0/21/gnoflY.jpg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quickSearchBg{
+  background: linear-gradient(
+    0deg,
+    #182825d7 0%,
+    #182825d7 100%)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainContainer{
+  height: 90vh;
 }
