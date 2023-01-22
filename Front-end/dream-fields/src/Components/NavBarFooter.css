@@ -2,6 +2,18 @@
     background: #182825 !important;
 }
 
+.greenBtn:hover{
+  background: #243b37 !important;
+}
+
+.bg-transparent{
+  border-color: #182825 !important;
+}
+
+.bg-transparent:hover{
+  background: #182825 !important;
+}
+
 .navMenu{
   text-decoration: none !important;
   color: #F8F0FB !important;
