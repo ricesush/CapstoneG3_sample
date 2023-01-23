@@ -1,0 +1,16 @@
+body{
+  background-image:  url(../src/img/bg-image.webp);
+  background-position: center;
+  height: 100vh;
+}
+
+.quickSearchBg{
+  background: linear-gradient(
+    0deg,
+    #182825d7 0%,
+    #182825d7 100%)
+}
+
+.mainContainer{
+  height: 90vh;
+}
