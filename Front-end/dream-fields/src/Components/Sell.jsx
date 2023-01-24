@@ -5,8 +5,7 @@ import BuySellRent from "../Pages/BuySellRent"
 function Sell() {
     return (
       <React.Fragment>
-
-<BuySellRent />
+        <BuySellRent />
         <div>This Is the Sell Page</div>
       </React.Fragment>
     );
