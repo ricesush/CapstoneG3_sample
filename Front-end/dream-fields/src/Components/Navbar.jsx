@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import Home from "../Pages/Home";
+import BuySellRent from "../Pages/BuySellRent";
 import Buy from "./Buy";
 import Sell from "./Sell";
 import Listing from "./Listing";
@@ -20,19 +21,13 @@ function NavBar() {
                 </button>
                 <div className="collapse navbar-collapse text-center" id="navbarNav">
                 <ul className="row d-flex navbar-nav ms-auto">
-                    <li className="col-lg-2 nav-item fw-bold">
+                    <li className="col-lg-3 nav-item fw-bold">
                         <div className="nav-link"><NavLink to="/" className="navMenu">HOME</NavLink></div>
                     </li>
-                    <li className="col-lg-2 nav-item">
-                        <div className="nav-link"><NavLink to="/Buy" className="navMenu">BUY</NavLink></div>
+                    <li className="col-lg-3 nav-item">
+                        <div className="nav-link"><NavLink to="/BuySellRent" className="navMenu">Buy/Sell</NavLink></div>
                     </li>
-                    <li className="col-lg-2 nav-item">
-                        <div className="nav-link"><NavLink to="/Sell" className="navMenu">SELL</NavLink></div>
-                    </li>
-                    <li className="col-lg-2 nav-item">
-                        <div className="nav-link"><NavLink to="/Listing" className="navMenu">LISTING</NavLink></div>
-                    </li>
-                    <li className="col-lg-4 nav-item d-flex justify-content-center">
+                    <li className="col-lg-6 nav-item d-flex justify-content-center">
                         <NavLink to="/SignIn" className="navMenu"><button type="button" className="btn bg-transparent nav-link text-light border-1 rounded-0 rounded-start">Login</button></NavLink>                                                                                        
                         <NavLink to="/Inquire" className="navMenu"><button type="button" className="btn greenBtn nav-link text-light rounded-0 rounded-end">INQUIRE</button></NavLink>
                     </li>
@@ -44,9 +39,10 @@ function NavBar() {
         
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Buy" element={<Buy />} />
-            <Route path="/Sell" element={<Sell />} />
-            <Route path="/Listing" element={<Listing />} />
+            <Route path="/BuySellRent/*" element={<BuySellRent />} />
+            <Route path="/BuySellRent/Buy" element={<Buy />} />
+            <Route path="/BuySellRent/Sell" element={<Sell />} />
+            <Route path="/BuySellRent/Listing" element={<Listing />} />
             <Route path="/Listing" element={<Inquire />} />
         </Routes>
 

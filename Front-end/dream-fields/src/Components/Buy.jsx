@@ -5,9 +5,11 @@ import BuySellRent from "../Pages/BuySellRent"
 
 function Buy() {
   return (
-    <>
-      <img className="img-fluid opacity-75" src="https://www.wesellsarasota.com/wp-content/uploads/2022/07/sarasota-modern-homes-banner.jpg" alt="" />
+    <React.Fragment>
+
       <BuySellRent />
+      <img className="img-fluid opacity-75" src="https://www.wesellsarasota.com/wp-content/uploads/2022/07/sarasota-modern-homes-banner.jpg" alt="" />
+      
       <div className="container-lg quickSearchBg pt-3 rounded-3">
         <div class="input-group input-group-lg mb-3">
           <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2" />
@@ -135,15 +137,9 @@ function Buy() {
           </div>
         </div>
       </div>
-
-
-
-
-
-
       <ScrollToTop />
 
-    </>
+    </React.Fragment>
   );
 }
 
